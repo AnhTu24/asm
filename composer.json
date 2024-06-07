@@ -1,0 +1,24 @@
+{
+    "name": "ductong/xuong-oop",
+    "autoload": {
+        "psr-4": {
+            "Ductong\\XuongOop\\": "src/"
+        },
+        "files": [
+            "helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Tống Văn Đức",
+            "email": "tongduc315@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6",
+        "eftec/bladeone": "^4.13",
+        "doctrine/dbal": "^4.0",
+        "rakit/validation": "^1.4",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
